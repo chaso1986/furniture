@@ -1,0 +1,111 @@
+
+        /* ზოგადი სტილები */
+        body {
+            margin: 0;
+            font-family: 'BPG Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #6c757d;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 20px;
+            transition: 1s;
+            text-shadow: 1px 1px 3px #000;
+        }
+        nav a:hover {
+            color: rgb(224, 188, 25);
+            padding: 0rem 7rem;            
+        }
+        .hero {
+            background: url('living-room-furniture-833363.webp') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            color: #ffffff;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 15px 15px 15px rgba(201, 118, 118, 0.1);
+            margin: 1rem;
+            width: 300px;
+            text-align: center;
+            padding: 1rem;
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1rem;
+        }
+        .product h3 {
+            margin: 0.5rem 0;
+            color: #333;
+        }
+        .product p {
+            color: #6c757d;
+        }
+        .product button {
+            background-color: #828f84;
+            color: #ffffff;
+            font-size: 15px;
+            border: none;
+            padding: 0.5rem 2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 3px 3px 2px rgba(0, 0, 3, 0.1);
+            transition: 0.5s;
+            
+        }
+      
+        .product button:hover {
+            background-color: #828f84;
+            padding: 0.5rem 7rem;
+            box-shadow:5px 5px 5px rgba(0, 0, 0, 0.1);
+            
+           
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .product img{
+            width: 280px;
+            padding: 1rem;
+            height: 190px;
+            transition: 0.5s;
+
+        }
+        .product img:hover{
+            transform: scale(1.2);
+        }
+     
